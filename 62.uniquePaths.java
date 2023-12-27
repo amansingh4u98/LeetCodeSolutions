@@ -24,7 +24,7 @@ class Solution {
 
     // Bottom-up dp solution
 
-     public int uniquePaths(int m, int n) {
+     public int uniquePathsBottomUp(int m, int n) {
         int[][] dp = new int[m][n];
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
